@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "nums",
+						"type": "uint256[]"
+					}
+				],
+				"name": "double",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyLibrary.sol": "MyLibrary"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyLibrary.sol": {
+			"keccak256": "0x57dbe615f228a68dd76e620c952a7f570a3cc1e045ecc932810fd541c9e5d53f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1e8d64982dcb9f779ef3118022f3e3628ab039cdc6cfac72fc0bbc194dbb38c9",
+				"dweb:/ipfs/QmVu3uMSdeb4jjw5PaGaMsggfTtthU1HtYXB6XHw5W2X24"
+			]
+		}
+	},
+	"version": 1
+}

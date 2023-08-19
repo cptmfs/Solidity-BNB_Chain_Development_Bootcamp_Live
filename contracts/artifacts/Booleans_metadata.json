@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getVar",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "newValue",
+						"type": "bool"
+					}
+				],
+				"name": "setVar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Booleans.sol": "Booleans"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Booleans.sol": {
+			"keccak256": "0xade059e71776bf0ef5ea948ff56a414cb2ae5ba2bf8aa5de3df6d9b220b445a7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://061e8a3dcb7896c3e9b10caa7d187eee63c97a437d4c3087ab503dd6f57cc8d0",
+				"dweb:/ipfs/QmexdNa6WRLyBis2e3PjUqxxpigvXCA7mcwthapgL18Ypt"
+			]
+		}
+	},
+	"version": 1
+}
